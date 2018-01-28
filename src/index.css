@@ -26,10 +26,10 @@ a:hover{
 .counter-div p{
     font-size:3rem;
 }
-.counter-div-timer{
-    border-top:1px solid;
+.counter-div hr{
     width:60%;
-    margin-left:20%;
+}
+.counter-div-timer{
 }
 
 ul{
