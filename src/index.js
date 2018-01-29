@@ -9,6 +9,7 @@ import './index.css';
 import Countdown from './components/Countdown';
 import Home from './components/Home';
 import Notes from './components/Notes';
+import About from './components/About';
 
 ReactDOM.render(
     <Router>
@@ -18,6 +19,7 @@ ReactDOM.render(
                 <Route path="/" component={Home}/>
             </Switch>
             <Route path="/notes" component={Notes}/>
+            <Route path="/about" component={About}/>
         </div>
     </Router>
     , document.getElementById('root'));

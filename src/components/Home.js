@@ -9,8 +9,8 @@ class Home extends  React.Component{
                 <ul className="nav-list">
                     <li><NavLink to="/" >Home</NavLink></li>
                     <li><NavLink to="/notes" >Articles</NavLink></li>
-                    <li><NavLink to="/countdown" >MessThing</NavLink></li>
-                    <li>About</li>
+                    <li><NavLink to="/countdown">MessThing</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
                 </ul>
             </div>
         );    

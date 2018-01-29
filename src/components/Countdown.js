@@ -49,7 +49,7 @@ class Countdown extends React.Component{
         
         return (
             <div className="counter-div">
-                <p>这是一个认真的春节倒计时:</p>
+                <p>这是某个春节倒计时:</p>
                 <hr/>
                 <div className="counter-div-timer">
                     <ul>

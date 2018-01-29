@@ -46,8 +46,25 @@ ul li{
 .nav-list{
     font-size:20px;   
     width: 100%;
-    background-color: #fff2f252;
+    background-color: #ffffff52;
     margin-top: 0px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.1);
     line-height: 60px;
 }
+/*Note page*/
+.note-list{
+    display: block;
+    margin: 0px 10% 0 10%;
+}
+.note-list li{
+    border: 1px solid #33333347;
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+/*page split*/
+.page-split{
+    margin: 0px 10%;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
