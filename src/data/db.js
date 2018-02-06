@@ -1,4 +1,4 @@
-t data = [
+const data = [
 {
 id: 1,
 title: '明天要去打酱油',

@@ -12,15 +12,16 @@ import Notes from './components/Notes';
 import About from './components/About';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import store from './stores/store';
+import noteStore from './stores/note/';
 
+let store=noteStore();
 ReactDOM.render(
     <Provider store={store}>
         <Router>
             <div>
                 <Switch>
                     <Route path="/countdown" component={Countdown}/>
-                    <Route exact path="/" component={Home}/>
+                    <Route path="/" component={Home}/>
                 </Switch>
                 <Route path="/notes" component={Notes}/>
                 <Route path="/about" component={About}/>

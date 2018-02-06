@@ -1,10 +1,8 @@
 import React from 'react';
 import {NavLink } from 'react-router-dom';
-import store from '../stores/store';
  
 class Home extends  React.Component{
     render(){
-        let s=store.getState();
         return (
             <div>
                 <ul className="nav-list">
@@ -13,8 +11,6 @@ class Home extends  React.Component{
                     <li><NavLink to="/countdown">MessThing</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
                 </ul>
-                <button onClick={()=>store.dispatch({type:'NEXT_PAGE'})}>+++</button>
-                {s}
             </div>
         );    
     }   
