@@ -6,6 +6,7 @@ const initState={
 }
 export default function noteReducer(state=initState,action){
     let list=state.notelist;
+    console.log(list);
     switch(action.type){
         case ADD_NOTE:
             list.push(action.item);
